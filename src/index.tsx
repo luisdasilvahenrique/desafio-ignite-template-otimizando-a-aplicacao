@@ -1,5 +1,5 @@
 import { render } from 'react-dom'
 
-import { App } from './App'
+import { AppMemo } from '../src/App'
 
-render(<App />, document.getElementById('root'))
+render(<AppMemo />, document.getElementById('root'))
